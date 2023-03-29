@@ -1,0 +1,126 @@
+/* // XX-Large devices (large desktops, less than 2560px) */
+
+@media (max-width: 2560px) {
+    .hero_sec .ask_a_question {
+        right: -2%;
+    }
+}
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+
+@media (max-width: 1399.98px) {}
+
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}
+
+
+/* // Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    /* hero section */
+    .hero_sec .welcome_sec .hero_heading .welcome_heading {
+        font-size: 3rem;
+    }
+    .hero_sec .ask_a_question {
+        right: -7%;
+    }
+    /* hero section end */
+    /* all heading font size */
+    .heading_text {
+        font-size: 20px;
+    }
+    /* box item */
+    .right_text {
+        padding-top: 0 !important;
+    }
+    .box_item .box_row .box_card {
+        padding: 60px 15px 25px;
+    }
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    /* main menu */
+    .main_menu .dropdown_menu {
+        position: initial !important;
+    }
+    /*hero section */
+    .aling_center {
+        text-align: center !important;
+        margin-bottom: 40px;
+    }
+    .hero_sec .hero_heading {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ask_a_question {
+        right: -8% !important;
+    }
+    /*box section */
+    .right_text {
+        text-align: left !important;
+        padding-top: 30px !important;
+    }
+    /*map section */
+    .locaton_sec {
+        padding-top: 80px;
+    }
+    /*register section */
+    .register_box {
+        margin-top: 40px;
+    }
+    /*footer section */
+    .footer_sec {
+        padding: 50px 0 45px!important;
+    }
+    .inner_logo {
+        flex-direction: column;
+    }
+    .copy_text {
+        padding-top: 15px;
+    }
+    .inner_terms,
+    .inner_icon {
+        justify-content: center !important;
+        padding-top: 20px;
+    }
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .hero_heading .welcome_heading {
+        font-size: 2rem !important;
+    }
+    .icon_card {
+        background-color: var(--bg-bk);
+        padding: 60px 15px;
+    }
+    .box_item {
+        padding: 60px 15px 50px;
+    }
+    .map_sec {
+        padding: 60px 15px;
+    }
+    .register_sec {
+        padding: 60px 15px 29px;
+    }
+    .hero_heading .welcome_heading {
+        font-size: 2rem;
+    }
+    .hero_sec .ask_a_question {
+        right: -15% !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero_sec .ask_a_question {
+        right: -20% !important;
+    }
+}
